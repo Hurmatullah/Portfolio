@@ -43,22 +43,12 @@ const Home = () => {
         <ul className="list-unstyled ml-5 mt-3 position-relative zindex-1">
           <li className="mb-3">
             <a className="text-white" href="https://themefisher.com/">
-              <i className="ti-facebook"></i>
-            </a>
-          </li>
-          <li className="mb-3">
-            <a className="text-white" href="https://themefisher.com/">
               <i className="ti-instagram"></i>
             </a>
           </li>
           <li className="mb-3">
-            <a className="text-white" href="https://themefisher.com/">
-              <i className="ti-dribbble"></i>
-            </a>
-          </li>
-          <li className="mb-3">
-            <a className="text-white" href="https://themefisher.com/">
-              <i className="ti-twitter"></i>
+            <a className="text-white" href="https://github.com/Hurmatullah  ">
+              <i className="ti-github"></i>
             </a>
           </li>
         </ul>

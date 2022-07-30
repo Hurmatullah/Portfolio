@@ -18,7 +18,7 @@ const Portfolio = () => {
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" href="#!">
-                    view project
+                    Просмотр проекта
                   </a>
                 </div>
               </div>
@@ -34,7 +34,7 @@ const Portfolio = () => {
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" href="#!">
-                    view project
+                    Просмотр проекта
                   </a>
                 </div>
               </div>
@@ -50,7 +50,7 @@ const Portfolio = () => {
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" href="#!">
-                    view project
+                    Просмотр проекта
                   </a>
                 </div>
               </div>
@@ -66,7 +66,7 @@ const Portfolio = () => {
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" href="#!">
-                    view project
+                    Просмотр проекта
                   </a>
                 </div>
               </div>
