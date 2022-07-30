@@ -11,7 +11,7 @@ const Portfolio = () => {
           <div class="col-lg-4 col-6 mb-4 shuffle-item">
             <div class="position-relative rounded hover-wrapper">
               <img
-                src="images/portfolio/item-1.png"
+                src="images/1.jpg"
                 alt="portfolio-image"
                 class="img-fluid rounded w-100"
               />
@@ -27,7 +27,7 @@ const Portfolio = () => {
           <div class="col-lg-4 col-6 mb-4 shuffle-item">
             <div class="position-relative rounded hover-wrapper">
               <img
-                src="images/portfolio/item-2.png"
+                src="images/2.png"
                 alt="portfolio-image"
                 class="img-fluid rounded w-100"
               />
@@ -43,7 +43,7 @@ const Portfolio = () => {
           <div class="col-lg-4 col-6 mb-4 shuffle-item">
             <div class="position-relative rounded hover-wrapper">
               <img
-                src="images/portfolio/item-3.png"
+                src="images/3.png"
                 alt="portfolio-image"
                 class="img-fluid rounded w-100"
               />
@@ -59,23 +59,7 @@ const Portfolio = () => {
           <div class="col-lg-4 col-6 mb-4 shuffle-item">
             <div class="position-relative rounded hover-wrapper">
               <img
-                src="images/portfolio/item-4.png"
-                alt="portfolio-image"
-                class="img-fluid rounded w-100"
-              />
-              <div class="hover-overlay">
-                <div class="hover-content">
-                  <a class="btn btn-light btn-sm" href="#!">
-                    view project
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-6 mb-4 shuffle-item">
-            <div class="position-relative rounded hover-wrapper">
-              <img
-                src="images/portfolio/item-5.png"
+                src="images/4.png"
                 alt="portfolio-image"
                 class="img-fluid rounded w-100"
               />
