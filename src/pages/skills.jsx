@@ -10,15 +10,14 @@ const Skills = () => {
         </h1>
         <ul class="skill-list list-flat">
           <li>Web Technology</li>
-          <li>HTML / CSS / SASS / PHP / Javascript</li>
+          <li>
+            HTML / CSS / Laravel / PHP / Javascript / Wordpress / Rest Api /
+            Reactjs / Bootstrap
+          </li>
         </ul>
         <ul class="skill-list list-flat">
           <li>Database</li>
-          <li>MySQL / MongoDB / Oracle / Access</li>
-        </ul>
-        <ul class="skill-list list-flat">
-          <li>Framework</li>
-          <li>Laravel / CodeIgniter / Zend / Ruby On Rails</li>
+          <li>MySQL </li>
         </ul>
       </div>
     </div>

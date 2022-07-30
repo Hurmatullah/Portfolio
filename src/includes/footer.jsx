@@ -4,7 +4,9 @@ const Footer = () => {
       <div class="container">
         <div class="units-row">
           <div class="unit-50">
-            <p>Handcrafted by Afnizar Nur Ghifari</p>
+            <p>
+              Хурматулла Карими <br />
+            </p>
           </div>
           <div class="unit-50">
             <ul class="social list-flat right">

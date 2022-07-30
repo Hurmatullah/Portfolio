@@ -4,30 +4,32 @@ const Experience = () => {
     <div class="work section second" id="experiences">
       <div class="container">
         <h1>
-          Work
+          работа
           <br />
-          Experiences
+          опыт
         </h1>
         <ul class="work-list">
-          <li>2014-2015</li>
+          <li>Февраль 2020 - сентябрь 2021</li>
           <li>
-            <a href="#">PT Traveloka Indonesia</a>
+            <a href="https://iap.af">
+              Intellectual Application and Product (IAP)
+            </a>
           </li>
-          <li>Web Designer</li>
+          <li>Web-разработчик И помощник по веб-хостингу</li>
         </ul>
         <ul class="work-list">
-          <li>2014-2015</li>
+          <li>Июль 2019 - декабрь 2019</li>
           <li>
-            <a href="#">Wego</a>
+            <a href="#">Avatech</a>
           </li>
-          <li>UI/UX Designer</li>
+          <li>Web-разработчик</li>
         </ul>
         <ul class="work-list">
-          <li>2014-2015</li>
+          <li>Май 2018 - сентябрь 2018</li>
           <li>
-            <a href="#">Garuda Indonesia</a>
+            <a href="https://cyberaan.com/">Cyberaan</a>
           </li>
-          <li>System Designer</li>
+          <li>Разработчик Laravel (стажер)</li>
         </ul>
       </div>
     </div>

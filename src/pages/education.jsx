@@ -1,28 +1,19 @@
 const Education = () => {
   return (
-    // <!-- Award & Achievements -->
-    <div class="award section second" id="achievements">
+    // <!-- Education -->
+    <div class="education section second" id="achievements">
       <div class="container">
         <h1>
-          Award &amp;
+          Образование &amp;
           <br />
-          Achievements
         </h1>
-        <ul class="award-list list-flat">
-          <li>January 2014</li>
-          <li>Attained PHP5 certification</li>
-          <li>Hold world/Olympic record</li>
+        <ul class="education-list list-flat">
+          <li>2022 - 2024</li>
+          <li>Санкт-Петербургский государственный университет</li>
         </ul>
-        <ul class="award-list list-flat">
-          <li>December 2014</li>
-          <li>Audited X number of clients in only Y amount of time</li>
-          <li>Held a perfect attendance record</li>
-          <li>Were promoted after only X months in the role</li>
-        </ul>
-        <ul class="award-list list-flat">
-          <li>March 2014</li>
-          <li>Placed employees at X companies</li>
-          <li>United multiple teams post-merger</li>
+        <ul class="education-list list-flat">
+          <li>2016 - 2019</li>
+          <li>Кабульский университет</li>
         </ul>
       </div>
     </div>

@@ -6,7 +6,7 @@ const Introduction = () => {
         <p>Привет, я Хурматулла Карими</p>
         <div class="units-row units-split wrap">
           <div class="unit-20">
-            <img src="img/ava.jpg" alt="Avatar" />
+            <img src="img/hurmat.jpeg" alt="Avatar" />
           </div>
           <div class="unit-80">
             <h1>
@@ -16,10 +16,10 @@ const Introduction = () => {
             </h1>
           </div>
           <p>
-            Draco is a constellation in the far northern sky. Its name is Latin
-            for dragon. Draco is circumpolar (that is, never setting) for many
-            observers in the northern hemisphere. It was one of the 48
-            constellations listed by the 2nd century astronomer Ptolemy.
+            Высокоорганизованный разработчик программного обеспечения, имеющий
+            проверенный опыт использования передовой инженерной практики для
+            создания программного обеспечения для новых, инновационных и
+            прибыльных продуктов и решений.
           </p>
         </div>
       </div>
