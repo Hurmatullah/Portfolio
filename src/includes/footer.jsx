@@ -1,27 +1,34 @@
 const Footer = () => {
   return (
-    <footer class="bg-dark footer-section">
-      <div class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <h5 class="text-light">Электронная почта</h5>
-              <p class="text-white paragraph-lg font-secondary">
-                hormatrasa123@gmail.com
-              </p>
-            </div>
-            <div class="col-md-4">
-              <h5 class="text-light">Телефон</h5>
-              <p class="text-white paragraph-lg font-secondary">
-                +7 (915) 4575854
-              </p>
-            </div>
-            <div class="col-md-4">
-              <h5 class="text-light">Адрес</h5>
-              <p class="text-white paragraph-lg font-secondary">
-                Санкт-Петербург, Россия
-              </p>
-            </div>
+    <footer>
+      <div class="container">
+        <div class="units-row">
+          <div class="unit-50">
+            <p>Handcrafted by Afnizar Nur Ghifari</p>
+          </div>
+          <div class="unit-50">
+            <ul class="social list-flat right">
+              <li>
+                <a href="mailto:afnizarhilmi@gmail.com">
+                  <i class="fa fa-send"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://twitter.com/flamekaizar">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://dribbble.com/flamekaizar">
+                  <i class="fa fa-dribbble"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://behance.com/flamekaizar">
+                  <i class="fa fa-behance"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

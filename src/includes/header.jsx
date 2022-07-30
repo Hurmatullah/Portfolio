@@ -1,44 +1,33 @@
 const Header = () => {
   return (
-    <div>
-      <header className="navigation fixed-top">
-        <nav className="navbar navbar-expand-lg navbar-dark">
-          <a className="navbar-brand font-tertiary h3" href="index.html">
-            <img src="images/logo.png" alt="Myself" />
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navigation"
-            aria-controls="navigation"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+    <div class="main-nav">
+      <div class="container">
+        <header class="group top-nav">
+          <div
+            class="navigation-toggle"
+            data-tools="navigation-toggle"
+            data-target="#navbar-1"
           >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-
-          <div className="collapse navbar-collapse text-center" id="navigation">
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item active">
-                <a className="nav-link" href="index.html">
-                  Home
-                </a>
+            <span class="logo">DRACO</span>
+          </div>
+          <nav id="navbar-1" class="navbar item-nav">
+            <ul>
+              <li class="active">
+                <a href="#about">About</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="about.html">
-                  about
-                </a>
+              <li>
+                <a href="#experiences">Experiences</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="contact.html">
-                  Contact
-                </a>
+              <li>
+                <a href="#achievements">Achievements</a>
+              </li>
+              <li>
+                <a href="#skills">Skills</a>
               </li>
             </ul>
-          </div>
-        </nav>
-      </header>
+          </nav>
+        </header>
+      </div>
     </div>
   );
 };

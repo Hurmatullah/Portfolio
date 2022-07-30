@@ -10,39 +10,35 @@
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <!-- Mobile Specific Metas
-  ================================================== -->
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Creative Portfolio Template" />
+    <title>Draco by @flamekaizar</title>
+    <!-- <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+      name="description"
+      content="Draco is free PSD &amp; HTML template by @flamekaizar"
     />
-    <meta name="author" content="Themefisher" />
-    <meta name="generator" content="Themefisher Kross Template v1.0" /> -->
-    <!-- Favicon -->
+    <meta name="author" content="Afnizar Nur Ghifari" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/kube.min.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
     <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="%PUBLIC_URL%/images/favicon.png"
-    />
-
-    <!-- ** Plugins Needed for the Project ** -->
-    <!-- Bootstrap -->
-    <link
+      href="http://fonts.googleapis.com/css?family=Playfair+Display+SC:700"
       rel="stylesheet"
-      href="%PUBLIC_URL%/plugins/bootstrap/bootstrap.min.css"
+      type="text/css"
     />
-    <!-- slick slider -->
-    <link rel="stylesheet" href="%PUBLIC_URL%plugins/slick/slick.css" />
-    <!-- themefy-icon -->
     <link
+      href="http://fonts.googleapis.com/css?family=Lato:400,700"
       rel="stylesheet"
-      href="%PUBLIC_URL%/plugins/themify-icons/themify-icons.css"
+      type="text/css"
     />
-
-    <!-- Main Stylesheet -->
-    <link href="%PUBLIC_URL%/css/style.css" rel="stylesheet" />
+    <style>
+      .intro h1:before {
+        /* Edit this with your name or anything else */
+        content: "Karimi";
+      }
+    </style>
   </head>
 
   <body>
@@ -50,16 +46,30 @@
 
     <div id="root"></div>
 
-    <!-- jQuery -->
-    <script src="%PUBLIC_URL%/plugins/jQuery/jquery.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="%PUBLIC_URL%/plugins/bootstrap/bootstrap.min.js"></script>
-    <!-- slick slider -->
-    <script src="%PUBLIC_URL%/plugins/slick/slick.min.js"></script>
-    <!-- filter -->
-    <script src="%PUBLIC_URL%/plugins/shuffle/shuffle.min.js"></script>
+    <!-- Javascript -->
+    <script src="%PUBLIC_URL%/js/jquery.min.js"></script>
+    <script src="%PUBLIC_URL%/js/typed.min.js"></script>
+    <script src="%PUBLIC_URL%/js/kube.min.js"></script>
+    <script src="%PUBLIC_URL%js/site.js"></script>
+    <script>
+      function newTyped() {}
+      $(function () {
+        $("#typed").typed({
+          // Change to edit type effect
+          strings: ["Санкт-Петербург", "Россия"],
 
-    <!-- Main Script -->
-    <script src="%PUBLIC_URL%/js/script.js"></script>
+          typeSpeed: 90,
+          backDelay: 700,
+          contentType: "html",
+          loop: !0,
+          resetCallback: function () {
+            newTyped();
+          },
+        }),
+          $(".reset").click(function () {
+            $("#typed").typed("reset");
+          });
+      });
+    </script>
   </body>
 </html>
