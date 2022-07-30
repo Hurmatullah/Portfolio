@@ -4,9 +4,9 @@ const Skills = () => {
     <div class="skills section second" id="skills">
       <div class="container">
         <h1>
-          Technical
+          технический
           <br />
-          Skills
+          навыки
         </h1>
         <ul class="skill-list list-flat">
           <li>Web Technology</li>
