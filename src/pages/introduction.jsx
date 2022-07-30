@@ -3,10 +3,10 @@ const Introduction = () => {
     // <!-- Introduction -->
     <div class="intro section" id="about">
       <div class="container">
-        <p>Привет, я Хурматулла Карими</p>
+        <p>Привет, Я Хурматулла Карими</p>
         <div class="units-row units-split wrap">
           <div class="unit-20">
-            <img src="img/hurmat.jpeg" alt="Avatar" />
+            <img src="img/hurmat1.jpeg" alt="Avatar" />
           </div>
           <div class="unit-80">
             <h1>

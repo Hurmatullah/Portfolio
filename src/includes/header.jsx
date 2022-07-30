@@ -8,7 +8,7 @@ const Header = () => {
             data-tools="navigation-toggle"
             data-target="#navbar-1"
           >
-            <span class="logo">DRACO</span>
+            <span class="logo">Карими Хурматулла</span>
           </div>
           <nav id="navbar-1" class="navbar item-nav">
             <ul>
