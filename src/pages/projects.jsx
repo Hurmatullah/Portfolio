@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     // <!-- My projects -->
-    <div class="work section second" id="experiences">
+    <div class="work section second" id="projects">
       <div class="container">
         <h1>Проекты</h1>
         <ul class="work-list">

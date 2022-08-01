@@ -16,7 +16,6 @@ const Experience = () => {
             </a>
           </li>
           <li>Web-разработчик И помощник по веб-хостингу</li>
-          <li>Details</li>
         </ul>
         <ul class="work-list">
           <li>Июль 2019 - декабрь 2019</li>

@@ -13,16 +13,16 @@ const Header = () => {
           <nav id="navbar-1" class="navbar item-nav">
             <ul>
               <li class="active">
-                <a href="#about">About</a>
+                <a href="#about">O</a>
               </li>
               <li>
-                <a href="#experiences">Experiences</a>
+                <a href="#experiences">Опыт</a>
               </li>
               <li>
-                <a href="#achievements">Achievements</a>
+                <a href="#projects">Проекты</a>
               </li>
               <li>
-                <a href="#skills">Skills</a>
+                <a href="#skills">Навыки</a>
               </li>
             </ul>
           </nav>
