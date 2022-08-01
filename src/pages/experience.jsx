@@ -10,7 +10,6 @@ const Experience = () => {
         </h1>
         <ul class="work-list">
           <li>Февраль 2020 - сентябрь 2021</li>
-          <li>Helo world</li>
           <li>
             <a href="https://iap.af">
               Intellectual Application and Product (IAP)
