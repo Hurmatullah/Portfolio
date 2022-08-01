@@ -6,7 +6,7 @@ const Introduction = () => {
         <p>Привет, Я Хурматулла Карими</p>
         <div class="units-row units-split wrap">
           <div class="unit-20">
-            <img src="img/hurmat1.jpeg" alt="Avatar" />
+            <img src="img/hurmat.jpeg" alt="Avatar" />
           </div>
           <div class="unit-80">
             <h1>
